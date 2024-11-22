@@ -1,9 +1,9 @@
-name: install-docker-action
+name: install-container-action
 description: this is docker install-docker-action 
 author: melvinsamuel070
 runs:
    using: composite
    steps:
-      - name: install docker
+      - name: install-container-action
         shell: bash
         run: entrypoint.sh

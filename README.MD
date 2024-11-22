@@ -6,10 +6,10 @@ this githube install using official docker installation command
 To use this action yuor repository, create a workflow (e.g,   ` .github/workflows/install-docker.yaml`) and the following  content:
 
 ```yaml
-name: install docker
+name: install-container-action
 on: [push]
 jobs:
-  install-docker:
+  install-container-action:
       runs-on: ubuntu-latest
       steps:
        -name: checkout repository
