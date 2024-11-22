@@ -1,0 +1,9 @@
+name: install-docker-action
+description: this is docker install-docker-action 
+author: melvinsamuel070
+runs:
+   using: composite
+   steps:
+      - name: install docker
+        shell: bash
+        run: entrypoint.sh
